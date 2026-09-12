@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Almas Dashboard",
+  "short_name": "Almas Dashboard",
+  "version": "4.0.0",
+  "description": "الماس داشبورد - داشبورد مدرن شخصی‌سازی شده با طراحی شیشه‌ای کریستال، مدیریت بوکمارک‌ها، تاریخ و تقویم جلالی و ابزارهای کاربردی",
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "notifications",
+    "identity",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "omnibox": {
+    "keyword": "almas"
+  },
+  "host_permissions": [
+    "https://*.supabase.co/*",
+    "https://suggestqueries.google.com/*"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "الماس داشبورد"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}

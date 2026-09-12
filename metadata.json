@@ -1,0 +1,8 @@
+{
+  "name": "Almas Dashboard v4.0.0",
+  "description": "الماس داشبورد - داشبورد مدرن شخصی‌سازی شده با طراحی شیشه‌ای کریستال، مدیریت بوکمارک‌ها، تاریخ و تقویم جلالی و ابزارهای کاربردی",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
